@@ -10,8 +10,10 @@ def muggles
   end
 end
 
-loop do
-  puts "Wingardium Leviosa"
+def looping
+  loop do
+    puts "Wingardium Leviosa"
+  end
 end
 #call your method here
 muggles
