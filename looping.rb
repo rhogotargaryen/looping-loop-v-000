@@ -1,5 +1,5 @@
 
-def looping
+def muggles
   i = 0
   loop do
 	  i += 1
@@ -10,5 +10,11 @@ def looping
   end
 end
 
+def looping
+  loop
+    puts "Wingardium Leviosa"
+  end
+end
 #call your method here
+muggles
 looping
